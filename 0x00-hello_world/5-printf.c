@@ -2,7 +2,7 @@
 
 /**
  * main - The main function
- * Description: Prints text to stdout with puts
+ * Description: Prints text to stdout with printf
  * Return: Returns 0
  */
 int main(void)
