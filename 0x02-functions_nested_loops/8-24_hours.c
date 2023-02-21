@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    jack_bauer();
-    return (0);
+	jack_bauer();
+	return (0);
 }
 
 int _putchar(char c)
@@ -18,36 +18,29 @@ int _putchar(char c)
  */
 void jack_bauer(void)
 {
-    char i = 1;
-    char k = 2;
+	char i;
+	char j;
 
-    _putchar('0');
-    _putchar(i + '0');
-    _putchar(':');
-    _putchar('0');
-    _putchar(k + '0');
+	_putchar('0');
+	_putchar(i + '0');
+	_putchar(':');
+	_putchar('0');
+	_putchar(k + '0');
 
-    while (i < 24)
-    {
-        char j = 0;
-        
-    }
-    
+	for (i = 0; i < 24; i++)
+	{
+		for (j = 0; j < 60; j++)
+		{
+			if (i < 10)
+				_putchar('0');
+			_putchar(i + '0');
 
-    /**for (j = 0; j < 24; j++)
-    {
-        for (k = 0; k < 60; k++)
-        {
-            _putchar('0' + i);
-            _putchar('0' + j);
-            _putchar(':');
-            
-            if (k < 10)
-                _putchar('0');
-            else
-                _putchar('0' + k);
-        }
-        _putchar('\n');
-        i++;
-    }*/
+			_putchar(':');
+
+			if (j < 10)
+				_putchar('0');
+			_putchar(j + '0');
+			_putchar('\n');
+		}
+	}
 }
