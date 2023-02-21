@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+s/**
  * print_sign - Checks letters case
  * @n: the letter to check
  *
