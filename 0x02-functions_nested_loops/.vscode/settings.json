@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "*.html": "jinja-html",
-        "main.h": "c"
-    }
-}
