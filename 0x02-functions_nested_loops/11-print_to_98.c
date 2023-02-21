@@ -18,7 +18,9 @@ void print_to_98(int n)
 
 		while (i <= limit)
 		{
-			printf("%d, ", i);
+			printf("%d", i);
+			if (i != limit)
+				printf(", ");
 			i++;
 		}
 		printf("\n");
@@ -29,7 +31,9 @@ void print_to_98(int n)
 
 		while (i >= limit)
 		{
-			printf("%d, ", i);
+			printf("%d", i);
+			if (i != limit)
+				printf(", ");
 			i--;
 		}
 		printf("\n");
@@ -40,7 +44,9 @@ void print_to_98(int n)
 
 		while (i <= limit)
 		{
-			printf("%d, ", i);
+			printf("%d", i);
+			if (i != limit)
+				printf(", ");
 			i++;
 		}
 		printf("\n");
