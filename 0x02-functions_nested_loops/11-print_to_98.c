@@ -11,11 +11,10 @@
 void print_to_98(int n)
 {
 	int limit = 98;
+	int i = n;
 
 	if (n >= 0 && n < 97)
 	{
-		int i = n;
-
 		while (i <= limit)
 		{
 			printf("%d", i);
@@ -27,8 +26,6 @@ void print_to_98(int n)
 	}
 	else if (n > 98)
 	{
-		int i = n;
-
 		while (i >= limit)
 		{
 			printf("%d", i);
@@ -40,8 +37,6 @@ void print_to_98(int n)
 	}
 	else if (n < 0)
 	{
-		int i = n;
-
 		while (i <= limit)
 		{
 			printf("%d", i);
