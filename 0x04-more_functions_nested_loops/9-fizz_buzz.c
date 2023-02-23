@@ -20,4 +20,5 @@ void main(void)
 		else
 			printf("%d ", i);
 	}
+	printf("\n");
 }
