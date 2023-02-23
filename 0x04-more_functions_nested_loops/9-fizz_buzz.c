@@ -5,7 +5,7 @@
  * Description: fizz buzz!
  * Return: Returns 0
  */
-void main(void)
+int main(void)
 {
 	int i;
 
