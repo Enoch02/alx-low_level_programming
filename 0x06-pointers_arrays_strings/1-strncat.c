@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncat - Concatenate 2 strings
  * @dest: The destination string
@@ -40,4 +41,3 @@ int _get_len(char *s)
 
 	return (len);
 }
-
