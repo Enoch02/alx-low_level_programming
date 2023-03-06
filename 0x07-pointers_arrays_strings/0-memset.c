@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - Concatenate 2 strings
+ * _memset - Fills memory area
  * @s: Pointer to memory area
  * @b: Constant byte
  * @n: Number of bytes
