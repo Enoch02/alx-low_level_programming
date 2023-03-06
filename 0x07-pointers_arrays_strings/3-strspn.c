@@ -9,5 +9,13 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int len
+	unsigned int len = 1;
+	int i;
+
+	for (i = 0; s[i] != accept[0]; i++)
+	{
+		len++;
+	}
+
+	return (len);
 }
