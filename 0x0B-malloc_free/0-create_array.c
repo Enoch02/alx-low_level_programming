@@ -6,7 +6,7 @@
  * @size: the size of the memory to print
  * @c: character to initialize with
  *
- * Return: Nothing.
+ * Return: Char array if not null.
  */
 char *create_array(unsigned int size, char c)
 {
